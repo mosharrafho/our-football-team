@@ -1,0 +1,56 @@
+
+
+
+
+
+
+/*---------------- top part style------------- */
+
+
+
+
+
+.top-part{
+
+display: grid;
+grid-template-columns: repeat(2,1fr);
+background-color:#2D25A0 ;
+width: 1440px;
+height: 677px;
+grid-column-gap: 108px;
+}
+.top-part img{    
+
+    width: 556.01px;
+    height: 438px; 
+margin-top: 139px;
+margin-right: 200px;
+margin-bottom: 100px;
+}
+.top-part .write{
+
+margin-top: 196px;
+margin-left: 158px;
+margin-bottom: 251px;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 70px;
+    color: #FFFFFF;
+grid-column-gap: 108px;
+}
+
+.watch-live{
+
+background-color:
+#E02C6D;
+width: 168px;
+height: 44px;
+left: 156px;
+top: 464px;
+
+font-weight: 500;
+font-size: 25px;
+line-height: 40px;
+text-align: center;
+}
+
