@@ -152,7 +152,6 @@ margin-right: auto;
     width: 100%;
     align-content: center;
 
-    /* background-color: #ebdfdfb6; */
     
 }
 
@@ -198,4 +197,8 @@ margin: 6px;px;
 
 
 
-
+/*------------------------------- media quieries ------------------------------------------*/
+Small devices landscape phones, 576px and up
+@media (min-width: 320px{
+    
+}
