@@ -7,7 +7,10 @@
 /*---------------- top part style------------- */
 
 
-
+body{
+    margin: 0;
+    padding: 0;
+}
 
 
 .top-part{
@@ -18,6 +21,8 @@ background-color:#2D25A0 ;
 width: 1440px;
 height: 677px;
 grid-column-gap: 108px;
+margin-left: 280px;
+justify-content: center;
 }
 .top-part img{  
     
@@ -103,8 +108,11 @@ display: flex; */
 
 /* } */ */
 
- 
 
+
+
+
+}
 
 
 
@@ -126,10 +134,12 @@ padding: 20px; font-size: 30px;}
     margin-bottom: 25px;
 margin-top: 70px;
 
-    
     width: 330px;
     height: 474px;
     border-radius: 20px;
+   padding: 20px;
+   margin-right:120px;
+   margin-left: 120px;gri
    
   }
   
@@ -138,20 +148,19 @@ margin-top: 70px;
 .flexible .flex-container{
 
 display:grid;
-grid-template-columns: repeat(3, 1fr);
-
+ grid-template-columns: repeat(3, 1fr); 
  padding-bottom: 18px;
 padding-left: 50px;
-margin-left: auto; 
-margin-right: auto;
 
+gap: 20px 5px;
 }
+
 /*-------------------------------------------------------------- footer start------------------------------------------ */
 .footer {
     height: 300px;
     width: 100%;
     align-content: center;
-
+margin-left: 300px;
     
 }
 
